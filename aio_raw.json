@@ -1,0 +1,27 @@
+{
+    "password": "makeover shell reprogram epidural extinct moneywise talcum shrubbery",
+    "secrets": {
+        "INSTANCE_ID": "778aff2fba7c440c396ae89968a83e1076c876390fc58030",
+        "NEXTCLOUD_PASSWORD": "29ba300c527549a0dd3f23822f6e4014f37b9b5fcb78f673",
+        "BORGBACKUP_PASSWORD": "0d336772ea8183075e12f1f56355cda24d9c05def0e589f0",
+        "TURN_SECRET": "57ca48103f932a02fc73fe4884a2bd7b1588a20cf1354366",
+        "SIGNALING_SECRET": "ce6de02f24bc264ea2327bec1126deaffac684f10822a508",
+        "TALK_INTERNAL_SECRET": "05fa07e417376d416174a436822dadd0ce6f1546f3559696",
+        "WHITEBOARD_SECRET": "3d53896e8a4520a591380684d16b87e444eb399aa0e94465",
+        "REDIS_PASSWORD": "fe1aba1b90527382a910fee4577918932e418e23a87ec20f",
+        "DATABASE_PASSWORD": "ecce5bf5ac201fb16ac671a165bc87ccabe46ca714ddf5d8",
+        "IMAGINARY_SECRET": "7ce490195c50e29718be1edeb2c3d775975c9d4a7558ebd3",
+        "ONLYOFFICE_SECRET": "fd8b46c1fd3f3ac9b8bbf1c8759a833f9a31639d03d8e19a",
+        "RECORDING_SECRET": "65118af6c46b4ad14916706a95cf72c404b819fabe08d5d4",
+        "FULLTEXTSEARCH_PASSWORD": "e45e8be31412f52784556f06f323ed9c71b082727aac0a59",
+        "HP_SHARED_KEY": "7758b97d08cc4940150b3b63d3dadbf805b0b89f58b1c015"
+    },
+    "aio_log_level": "warn",
+    "nextcloud_enable_dri_device": "false",
+    "domain": "192.168.1.34.nip.io",
+    "borg_restore_password": "",
+    "install_latest_major": "",
+    "AIO_URL": "localhost:8080",
+    "wasStartButtonClicked": true,
+    "AIO_TOKEN": "96afabcfb17a30736f8b50f015ca2f47e9dc0a4596db5ad7"
+}
