@@ -8,11 +8,11 @@ app.use(cors());
 app.use(express.static('public'));
 
 const pool = mysql.createPool({
-  host:     process.env.MYSQL_HOST     || 'db',
-  user:     process.env.MYSQL_USER     || 'root',
-  password: process.env.MYSQL_PASSWORD || 'root',
-  database: process.env.MYSQL_DATABASE || 'inventory_db',
-  port:     process.env.MYSQL_PORT     || 3306,
+  host:     process.env.MYSQLHOST     || process.env.MYSQL_HOST     || 'db',
+  user:     process.env.MYSQLUSER     || process.env.MYSQL_USER     || 'root',
+  password: process.env.MYSQLPASSWORD || process.env.MYSQL_PASSWORD || 'root',
+  database: process.env.MYSQLDATABASE || process.env.MYSQL_DATABASE || 'inventory_db',
+  port:     process.env.MYSQLPORT     || process.env.MYSQL_PORT     || 3306,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
